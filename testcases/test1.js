@@ -22,6 +22,7 @@ describe("suite", function(){
         homepage.f_no('5');
         homepage.s_no('4');
         homepage.button();
+        browser.sleep(5000);
         homepage.verifyResult("9")
 
     });
@@ -30,6 +31,7 @@ describe("suite", function(){
         homepage.f_no('7');
         homepage.s_no('5');
         homepage.button1();
+        browser.sleep(5000);
         homepage.verifyResult("12")
 
     });
